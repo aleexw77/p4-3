@@ -28,6 +28,16 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.colorfirst {
+    font-size: 15px;
+    color: #000000;
+}
+
+.textaligncenter {
+    margin-left: 20px;
+}
+
+
 .bloc {
     width: 100%;
     clear: both;
@@ -134,7 +144,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -369,6 +379,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.centerresp2 {
+    width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -744,6 +758,11 @@ li {
     padding-top: 10px;
 }
 
+.marginpic {
+    width: 100%;
+    height: 100%;
+}
+
 
 
 .med-width-whitespace {
@@ -864,7 +883,7 @@ h4 {
 
 .textalignfooter {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 @media (max-width: 1024px) {
@@ -1078,10 +1097,10 @@ h4 {
 }
 
 @media (min-width: 400px) {
-    .center {
-        width: 100%;
-        height: 100%;
-} 
+  
+    
+
+
 .centerflex{
     display: flex;
     justify-content: center;
@@ -1095,6 +1114,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    
+
 }
 
 @media (max-width: 767px) {
@@ -1122,7 +1144,10 @@ h2 {
     text-align: center;
 }
 
-
+.imgcenterresp {
+    margin: auto auto auto auto;
+    width: 100%;
+}
 
 
 }
