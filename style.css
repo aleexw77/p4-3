@@ -432,6 +432,11 @@ a:hover {
     padding: 14px 15px;
 }
 
+.widthlogo {
+    height: 40px;
+    width: 200px;
+}
+
 nav .caret {
     margin: 0 5px;
 }
