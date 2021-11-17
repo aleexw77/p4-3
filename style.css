@@ -472,6 +472,10 @@ nav .caret {
     margin: 0 5px 5px 0;
 }
 
+.colorh2 {
+    color: #000000;
+}
+
 .btn.pull-right {
     margin: 0 0 5px 5px;
 }
